@@ -30,7 +30,7 @@ public class FractionTest {
 		Fraction f = new Fraction();
 		f.enter();
 		System.out.println(f);
-		
+
 		Fraction a = new Fraction();
 		a.enter();
 		Fraction b = new Fraction();
@@ -39,7 +39,7 @@ public class FractionTest {
 		c = a.add(b);
 		System.out.println(c);
 	}
-	
+
 	public void enter() {
 		String strFraction = IBIO.input("Enter fraction (a/b format): ");
 		strFraction = strFraction.replace("/", " ");
