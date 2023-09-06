@@ -6,10 +6,12 @@ PrX.Y:
   
 */
 
-public class Template		// Replace "Template"with your specific class name
+public class Pr11_1		// Replace "Template"with your specific class name
 {
 	public static void main(String[] args)
 	{
+		Fraction a = new Fraction() ;
+		a.enter();
 		
 	}
 }
