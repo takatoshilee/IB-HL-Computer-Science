@@ -34,20 +34,10 @@ public class Fraction {
 	}
 	
 	public static void main(String args[]) {
-		Fraction f = new Fraction(3,4);
-		f.print();
+		Fraction f = new Fraction(num, den);
 		IBIO.output(f.num + "/" + f.den);
 		System.out.println(f);
-		
 	}
-	
-	void print() {
-		IBIO.output(num + "/" + den);
-	}
-	
-	public String toString() {
-		String ss = num + "/" + den;
-		return ss;
-	}
+
 }
 

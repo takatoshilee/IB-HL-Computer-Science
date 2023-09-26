@@ -49,7 +49,14 @@ public class FractionTest {
 		//this.simplify();
 	}
 	
+	void print() {
+		IBIO.output(f.num + "/" + den);  
+	}
 	
+	public String toString() {
+		String ss = num + "/" + den; 
+		return ss;
+	}
 }
 
 
