@@ -34,7 +34,7 @@ public class Fraction {
 	}
 	
 	public static void main(String args[]) {
-		Fraction f = new Fraction(num, den);
+		Fraction f = new Fraction(a, b);
 		IBIO.output(f.num + "/" + f.den);
 		System.out.println(f);
 	}
